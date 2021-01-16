@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "commit": "git-cz",
+    "test": "jest",
+    "test:watch": "yarn test --watch",
     "lint:js": "run-script-os",
     "lint:js:win32": "eslint src/**/*.{js,jsx,ts,tsx} --fix --color",
     "lint:js:darwin:linux": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix --color",
@@ -28,6 +30,12 @@
     "@babel/plugin-transform-react-inline-elements": "^7.9.0",
     "@babel/preset-env": "7.9.5",
     "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.12.7",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@types/jest": "^26.0.20",
     "@types/node": "^14.14.21",
     "@types/react": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.13.0",
@@ -51,6 +59,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "husky": "^4.3.8",
+    "jest": "^26.6.3",
     "lint-staged": "^10.5.3",
     "run-script-os": "^1.1.4",
     "stylelint": "13.3.2",
@@ -58,5 +67,10 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "^4.1.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }

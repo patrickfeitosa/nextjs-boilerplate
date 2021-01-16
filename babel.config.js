@@ -4,12 +4,8 @@
  */
 module.exports = {
   presets: [
-    ['@babel/preset-env', {
-      // 'target' option uses .browserslist file
-      useBuiltIns: 'usage', // 'usage' | 'entry' | false, defaults to false
-      corejs: '3.0.0',
-    }],
-    '@babel/preset-react',
+    'next/babel',
+    '@babel/preset-typescript',
   ],
   plugins: [
     '@babel/plugin-proposal-optional-chaining',

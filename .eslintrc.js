@@ -9,6 +9,8 @@ module.exports = {
     browser: true,
     commonjs: true,
     es6: true,
+    jest: true,
+    node: true,
   },
   settings: {
     react: {
@@ -47,6 +49,16 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    'import/extensions': [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'react/prop-tpyes': 'off',
