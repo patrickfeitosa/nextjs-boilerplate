@@ -61,7 +61,7 @@ module.exports = {
     ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
-    'react/prop-tpyes': 'off',
+    'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     'linebreak-style': 'off', // Avoid LF/CRLF on Win/Linux/Mac

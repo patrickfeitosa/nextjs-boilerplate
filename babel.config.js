@@ -44,6 +44,9 @@ module.exports = {
         ],
       },
     }],
+    ['styled-components', {
+      ssr: true,
+    }],
   ],
   env: {
     development: {

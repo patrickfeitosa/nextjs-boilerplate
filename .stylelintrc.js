@@ -3,9 +3,6 @@
  * https://stylelint.io/user-guide/configuration/
  */
 module.exports = {
-  processors: [
-    'stylelint-processor-styled-components',
-  ],
   extends: [
     // The standard config based on a handful of CSS style guides
     // https://github.com/stylelint/stylelint-config-standard
@@ -13,6 +10,7 @@ module.exports = {
     'stylelint-config-styled-components',
   ],
   rules: {
+    'declaration-empty-line-before': 'never',
     'max-nesting-depth': 10,
     'property-no-vendor-prefix': null,
     'at-rule-no-unknown': null,
