@@ -12202,10 +12202,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-run-script-os@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/run-script-os/-/run-script-os-1.1.4.tgz#d381b12055881b8d18cfcd88c627e9f099b1a06f"
-  integrity sha512-7CyVTaS+B8h11w0CdyLHw+n01ZmUD01kbluxc8+qWAdJ6LvnThTWAbMFCndW9vPHBoMCaB2kXHv0SSTAUlHHhQ==
+run-script-os@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/run-script-os/-/run-script-os-1.1.5.tgz#6038a92b370a1cbca5fa2fa73d1c740b0037b6ff"
+  integrity sha512-kLvUnf1SM1+gSH2bY1P41MNFaWdXaG2nkhoJS9WQNQxk6g9KNuncKderBLG7vOsp77GtQqNs0bEazxip/I6wfg==
 
 rxjs@^6.4.0, rxjs@^6.5.3, rxjs@^6.6.0, rxjs@^6.6.3:
   version "6.6.3"
