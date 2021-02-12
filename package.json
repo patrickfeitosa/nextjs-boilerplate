@@ -36,7 +36,7 @@
     "@babel/plugin-transform-react-inline-elements": "^7.9.0",
     "@babel/preset-env": "7.12.11",
     "@babel/preset-react": "^7.9.4",
-    "@babel/preset-typescript": "^7.12.7",
+    "@babel/preset-typescript": "^7.12.16",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^11.0.0",
     "@storybook/addon-essentials": "^6.1.17",
